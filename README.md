@@ -24,7 +24,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how you took advantage of Java's Object Oriented approach to solve the sprint challenge.
 
-By creating seed data and allows the application to use that set of objects to return data in the endpoint.
+The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.
 
 2. Explain the three steps needed to run a Java application (using the JDK) including what each step does and how those step correlate to running a JavaScript application.
 
