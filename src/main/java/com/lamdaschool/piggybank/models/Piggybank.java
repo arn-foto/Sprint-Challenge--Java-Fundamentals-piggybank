@@ -10,13 +10,13 @@ public class Piggybank
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    Long coinid;
-    String name;
-    String namepural;
-    Long value;
-    Long quantity;
+    private Long coinid;
+    private String name;
+    private String namepural;
+    private Long value;
+    private int quantity;
 
-    public Piggybank(String name, String namepural, Long value, Long quantity)
+    public Piggybank(String name, String namepural, Long value, int quantity)
     {
         this.name = name;
         this.namepural = namepural;
@@ -61,11 +61,11 @@ public class Piggybank
         this.value = value;
     }
 
-    public Long getQuantity() {
+    public int getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(Long quantity) {
+    public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
 
