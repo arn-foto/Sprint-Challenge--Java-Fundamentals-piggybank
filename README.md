@@ -35,7 +35,7 @@ Compiling  (javac) , Creating a JAR then RUNNING the .jar file.
 
 4. Can you explain the differences between Abstract Classes and Interfaces including how they are used in your application?
 
-With interfaces you can allow classes to extend multiple, but with Abstract classes, classes can only be subset classes of the abstract class.
+My repo is an interface. With interfaces you can allow classes to extend multiple, but with Abstract classes, classes can only be subset classes of the abstract class.
 
 
 
