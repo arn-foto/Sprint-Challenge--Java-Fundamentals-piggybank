@@ -7,6 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,8 +23,8 @@ public class PiggyController {
         } else return coin.getName();
     }
 
-    private float getTotal() {
-        float total = 0;
+    private double getTotal() {
+        double total = 0;
 
         for (Piggybank coin : coinList) {
             total += coin.getQuantity() * coin.getValue();
@@ -45,9 +46,9 @@ public class PiggyController {
         for (Piggybank coin : coinList) {
             System.out.println(coin.getQuantity() + " " + checkPlural(coin));
         }
+        DecimalFormat df = new DecimalFormat("###.##");
+        System.out.println("The piggy bank holds $" + (df.format(getTotal())));
 
-        System.out.print("The piggy bank holds $" + getTotal());
-//        System.out.print("The piggy bank holds 7.3");
 
         return new ResponseEntity<>(HttpStatus.OK);
     }
