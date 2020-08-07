@@ -19,8 +19,6 @@ public class PiggyController
             produces = { "application/json"})
     public ResponseEntity<?> listMoney()
     {
-//        List<Piggybank> myList = new ArrayList<>();
-//pigRepo.findAll().interator().forEachRemaining(myList::add);
 
         return  new ResponseEntity<>(HttpStatus.OK);
     }
