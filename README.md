@@ -23,9 +23,21 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how you took advantage of Java's Object Oriented approach to solve the sprint challenge.
+
+The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.
+
 2. Explain the three steps needed to run a Java application (using the JDK) including what each step does and how those step correlate to running a JavaScript application.
+
+Compiling  (javac) , Creating a JAR then RUNNING the .jar file.
+
 3. Explain how Java being a strongly typed language affected you solution.
+ 	its javas way or the highway. It wont allow you to move forwward until things are in place.
+
 4. Can you explain the differences between Abstract Classes and Interfaces including how they are used in your application?
+
+My repo is an interface. With interfaces you can allow classes to extend multiple, but with Abstract classes, classes can only be subset classes of the abstract class.
+
+
 
 ## Instructions
 
